@@ -22,7 +22,7 @@ dat1 <- read.xlsx(file="NGAP.xlsx",sheetIndex=1,rowIndex = 18:23,colIndex = 7:15
 head(dat1)
 
 #Solution
-sum(dat1$ZIP * dat1$EXT, na.rm = T)
+sum(dat1$Zip * dat1$Ext, na.rm = T)
 
 ## Question4
 
