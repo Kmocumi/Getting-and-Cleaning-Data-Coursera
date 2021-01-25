@@ -8,6 +8,7 @@ head(data)
 
 # Solution
 sum(dat$VAL == 24, na.rm = TRUE)
+#answer is 53
 
 ## Question3
 
@@ -23,6 +24,7 @@ head(dat1)
 
 #Solution
 sum(dat1$Zip * dat1$Ext, na.rm = T)
+#answer is 36534720
 
 ## Question4
 
@@ -34,6 +36,8 @@ rootNode <- xmlRoot(doc)
 xmlName(rootNode)
 zipcode <- xpathSApply(rootNode,"//zipcode",xmlValue)
 length(zipcode[zipcode==21231])
+
+#answer is 127 
 
 ## Question5
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv"
